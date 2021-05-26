@@ -5,7 +5,7 @@ export default {
 	//登录
 	login(data) {
 		return axios({
-			url: '/users/login',
+			url: 'http://jacklv.cn/users/login',
 			method: 'post',
 			data
 		})
